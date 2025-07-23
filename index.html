@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LukiLab</title>
+  <meta charset="UTF-8">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+    }
+
+    .sidebar {
+      width: 220px;
+      background-color: #111;
+      color: #fff;
+      padding: 20px;
+      height: 100vh;
+      position: sticky;
+      top: 0;
+    }
+
+    .sidebar h1 a {
+      color: #00ff99;
+      text-decoration: none;
+      font-size: 24px;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 30px;
+    }
+
+    .sidebar li {
+      margin: 10px 0;
+    }
+
+    .sidebar a {
+      color: #ccc;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+
+    .sidebar a:hover {
+      color: #00ffcc;
+      text-shadow: 0 0 5px #00ffee;
+    }
+
+    .main {
+      flex: 1;
+      padding: 40px;
+    }
+
+    .ads {
+      width: 200px;
+      background-color: #faf0e6;
+      padding: 20px;
+      border-left: 1px solid #ddd;
+    }
+
+    .quote {
+      margin-top: 50px;
+      font-style: italic;
+      color: #444;
+      font-size: 16px;
+      border-top: 1px dashed #ccc;
+      padding-top: 20px;
+    }
+
+    h3 {
+      margin-top: 30px;
+      color: #0ff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="sidebar">
+    <h1><a href="index.html">LukiLab</a></h1>
+
+    <h3>Shop</h3>
+    <ul>
+      <li><a href="tshirts.html">T-Shirts</a></li>
+      <li><a href="bottoms.html">Bottoms</a></li>
+      <li><a href="hats.html">Hats</a></li>
+    </ul>
+
+    <h3>Mind Stuff</h3>
+    <ul>
+      <li><a href="physics.html">Physics</a></li>
+      <li><a href="philosophy.html">Philosophy</a></li>
+      <li><a href="research.html">Research</a></li>
+      <li><a href="extracts.html">Extracts</a></li>
+    </ul>
+
+    <h3><a href="contacts.html">Contacts</a></h3>
+  </div>
+
+  <div class="main">
+    <div class="quote">
+      <h4>Random Science Quote:</h4>
+      <p>“♪ₙₘ ≥ ♪ₜ — Change is inevitable.”</p>
+    </div>
+  </div>
+
+  <div class="ads">
+    <h3>Adverts</h3>
+    <p>— Placeholder for ad boxes —</p>
+  </div>
+
+</body>
+</html>
